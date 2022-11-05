@@ -45,7 +45,12 @@ const height = computed(() => {
             aria-hidden="true"
           />
         </button>
-        <h3 class="text-xl font-medium leading-6">{{ title }}</h3>
+        <h3
+          @click="seeMore = !seeMore"
+          class="text-xl cursor-pointer font-medium leading-6"
+        >
+          {{ title }}
+        </h3>
       </div>
       <button
         type="button"
