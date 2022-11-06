@@ -5,6 +5,7 @@ import BaseModal from "./components/BaseModal";
 import Loader from "./components/Loader";
 import ConfirmModal from "./components/ConfirmModal";
 import Notification from "./components/Notification";
+import Button from "./components/Button";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Notification from "./components/Notification";
       <Code title="TextInput.vue" :fileContent="TextInput" />
       <Code title="BaseModal.vue" :fileContent="BaseModal" />
       <Code title="ConfirmModal.vue" :fileContent="ConfirmModal" />
+      <Code title="Button.vue" :fileContent="Button" />
       <Code title="Loader.vue" :fileContent="Loader" />
       <Code title="Notification.vue" :fileContent="Notification" />
     </div>
