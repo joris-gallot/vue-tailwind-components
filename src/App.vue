@@ -3,6 +3,7 @@ import Code from "@/components/Code.vue";
 import TextInput from "./components/TextInput";
 import BaseModal from "./components/BaseModal";
 import Loader from "./components/Loader";
+import ConfirmModal from "./components/ConfirmModal";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import Loader from "./components/Loader";
     <div class="space-y-6">
       <Code title="TextInput.vue" :fileContent="TextInput" />
       <Code title="BaseModal.vue" :fileContent="BaseModal" />
+      <Code title="ConfirmModal.vue" :fileContent="ConfirmModal" />
       <Code title="Loader.vue" :fileContent="Loader" />
     </div>
   </div>
