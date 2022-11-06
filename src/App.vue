@@ -2,6 +2,7 @@
 import Code from "@/components/Code.vue";
 import TextInput from "./components/TextInput";
 import BaseModal from "./components/BaseModal";
+import Loader from "./components/Loader";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import BaseModal from "./components/BaseModal";
     <div class="space-y-6">
       <Code title="TextInput.vue" :fileContent="TextInput" />
       <Code title="BaseModal.vue" :fileContent="BaseModal" />
+      <Code title="Loader.vue" :fileContent="Loader" />
     </div>
   </div>
 </template>
